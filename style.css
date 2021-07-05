@@ -36,7 +36,7 @@ label {
 
 form {
   background-color: var(--color-white);
-  padding: 50px;
+  padding: 30px 50px;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
