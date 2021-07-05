@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Registration Page</title>
+  </head>
+  <body>
+    <div class="form__container">
+      <form>
+        <h3>NIN Registeration</h3>
+        <hr />
+
+        <div class="form-scroll">
+          <div class="form-group">
+            <label for="firstname">First Name</label>
+            <input type="text" placeholder="first name" id="firstname" />
+          </div>
+
+          <div class="form-group">
+            <label for="lastname">Last Name</label>
+            <input type="text" placeholder="last name" id="lastname" />
+          </div>
+
+          <div class="form-group">
+            <label for="dob">Date Of Birth</label>
+            <input type="date" placeholder="date of birth" id="dob" />
+          </div>
+
+          <div class="form-group">
+            <label for="state">State Of Birth</label>
+            <input type="text" placeholder="state of birth" id="state" />
+          </div>
+
+          <div class="form-group">
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+              <option>select</option>
+              <option>Female</option>
+              <option>Male</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="residence">Residence Status</label>
+            <select name="residence" id="residence">
+              <option>select</option>
+              <option>Birth</option>
+              <option>Naturalization</option>
+              <option>Registration</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="residenceaddress">Residential Address</label>
+            <input
+              type="text"
+              placeholder="1, Amolasho way, opposite GTB"
+              id="residenceaddress"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="physical-challenges">Physical Challenges?</label>
+            <select name="physical-challenges" id="physical-challenges">
+              <option>select</option>
+              <option>none</option>
+              <option>Blind</option>
+              <option>Deaf</option>
+              <option>Dump</option>
+              <option>Paralized</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="maritalstatus">Marital Status</label>
+            <select name="maritalstatus" id="maritalstatus">
+              <option>select</option>
+              <option>Divorced</option>
+              <option>Married</option>
+              <option>Separated</option>
+              <option>Single</option>
+              <option>Widow</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="educationlevel">Education Level</label>
+            <select name="educationlevel" id="educationlevel">
+              <option>select</option>
+              <option>Certification</option>
+              <option>None</option>
+              <option>Post-graduate</option>
+              <option>Primary</option>
+              <option>Secondary</option>
+              <option>Tertiary</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="religion">Religion</label>
+            <select name="religion" id="religion">
+              <option>select</option>
+              <option>Christianity</option>
+              <option>Islam</option>
+              <option>Traditional</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Telephone</label>
+            <input type="tel" placeholder="telephone" />
+          </div>
+
+          <div class="form-group">
+            <label for="employment">Emplyment Status</label>
+            <select name="employment" id="employment">
+              <option>select</option>
+              <option>Employed</option>
+              <option>Unemployed</option>
+              <option>Pensioneer</option>
+              <option>Self Employed</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" placeholder="email" id="email" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <button class="submit__btn">Submit</button>
+        </div>
+      </form>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
